@@ -7,6 +7,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 
 val networkModule = applicationContext {
+    
     bean {
         Retrofit.Builder()
             .addConverterFactory(MoshiConverterFactory.create())
